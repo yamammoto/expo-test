@@ -14,7 +14,7 @@ export default class App extends Component {
     const { todos } = this.state;
     let list = [];
     if (todos.length <= 0) {
-      list = <Text style={{ textAlign: 'center' }}>データが登録されていません。</Text>
+      list = <Text style={{ textAlign: 'center' }}>GIT と連携</Text>
     } else {
       for (const [i, t] of todos.entries()) {
         list = [
