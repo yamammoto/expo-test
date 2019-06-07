@@ -14,7 +14,7 @@ export default class App extends Component {
     const { todos } = this.state;
     let list = [];
     if (todos.length <= 0) {
-      list = <Text style={{ textAlign: 'center' }}>GIT と連携</Text>
+      list = <Text style={{ textAlign: 'center' }}>git de push part2</Text>
     } else {
       for (const [i, t] of todos.entries()) {
         list = [
